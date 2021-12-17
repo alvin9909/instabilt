@@ -100,7 +100,7 @@ function Post({ id, username, userImg, img, caption}) {
                 <DotsHorizontalIcon className="h-5" />
             </div>
 
-            {/* img */}
+            {/* Img */}
                 <img onClick={onClick}
                     src={img} 
                     className="object-contain w-full" 

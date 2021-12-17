@@ -20,6 +20,7 @@ function Header() {
     const [open, setOpen] = useRecoilState(modalState);
     const router = useRouter();
 
+
     return (
         <div className="shadow-sm border-b bg-white sticky top-0 z-50">
             <div className="flex justify-between max-w-6xl mx-5 lg:mx-auto">
@@ -64,7 +65,7 @@ function Header() {
                     <>
 
                         <Menu className="md:hidden" />
-                        <div className="relative navBtn">
+                        <div onClick={() => router.push("inbox")} className="relative navBtn">
                             <PaperAirplaneIcon className="navBtn rotate-45"/>
                             <div className="absolute -top-1 -right-2 text-xs w-5 h-5 bg-red-500 rounded-full flex items-center justify-center animate-pulse text-white">3</div>
                         </div>

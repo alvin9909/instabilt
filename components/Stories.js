@@ -27,12 +27,12 @@ function Stories() {
                     username={session.user.username}
                 />
             )}
-            
             {suggestions.map(profile => (
                 <Story 
                     key={profile.id} 
                     img={profile.avatar} 
                     username={profile.username} />
+            
             ))}
         </div>
     );

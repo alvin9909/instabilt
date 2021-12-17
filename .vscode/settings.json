@@ -1,0 +1,32 @@
+{"editor.fontFamily": "Fira Code iScript",
+  "editor.fontSize": 16,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "scope": [
+                // the following elements will be displayed in bold
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                // the following elements will be in italic
+                //   (=Fira Code iScript)
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                // the following elements will be excluded from italics 
+                //   (VSCode has some defaults for italics)
+            ],
+            "settings": {
+                "fontStyle": ""
+            }
+        }
+    ]
+}}
